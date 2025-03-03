@@ -6,7 +6,7 @@ export default function DashboardContainer() {
 		<div>
 			<h2 className="text-xl font-semibold mb-5">Dashboard</h2>
 
-			<div className="flex justify-between gap-4">
+			<div className="flex justify-between grid grid-cols-4 gap-4">
 				{dashboard?.map((data) => (
 					<DashboardCard {...data} key={data.id} />
 				))}

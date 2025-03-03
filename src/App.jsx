@@ -16,7 +16,6 @@ function App() {
 							<DashboardComponent />
 							<AssignmentContainer />
 						</div>
-
 						<div className="w-1/4 bg-red-200 h-full">hii</div>
 					</div>
 				</div>

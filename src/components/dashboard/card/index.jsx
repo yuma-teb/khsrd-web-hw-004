@@ -1,8 +1,8 @@
 export default function DashboardCard(props) {
 	const imgStyle = `p-3 rounded-xl ${props?.color}`;
 	return (
-		<div className="flex gap-5">
-			<div className="flex bg-white gap-5 py-3.5 px-4 rounded-xl w-auto">
+		<div className="flex">
+			<div className="flex bg-white gap-5 py-3.5 px-4 rounded-xl w-full">
 				<div className={imgStyle}>
 					<img src={props.icon} alt="file icon" />
 				</div>

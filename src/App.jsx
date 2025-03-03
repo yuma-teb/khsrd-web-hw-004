@@ -1,7 +1,7 @@
 import "./App.css";
 import SidebarComponent from "./components/SidebarComponent";
 import TopNavbarComponent from "./components/TopNavbarComponent";
-import AssignmentList from "./sections/assignment/AssignmentList";
+import AssignmentContainer from "./sections/assignment/view";
 import DashboardComponent from "./sections/dashboard/DashboardComponent";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
 					<div className="flex gap-6 h-full mt-5">
 						<div className="flex flex-col gap-5 w-8/10">
 							<DashboardComponent />
-							<AssignmentList />
+							<AssignmentContainer />
 						</div>
 
 						<div className="w-1/4 bg-red-200 h-full">hii</div>
